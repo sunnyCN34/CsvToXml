@@ -1,0 +1,14 @@
+                                 Future Strategies for this Project
+
+Things I would like to do with this project in future would be:
+
+•	Instead of serializing java objects into XML with XStream library.
+    I would like to use XSLT to convert our data into XML.
+    This would give us more control over the functionality of
+    project and we can write something more customized.
+
+•	Also, one other strategy to futher develop this project would
+    be to use a framework like Spring to do the development which will
+    be more suited when we work on enterprise scale and will make our
+    project more robust and scalable.
+ 
