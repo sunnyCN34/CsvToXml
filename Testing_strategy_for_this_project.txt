@@ -1,0 +1,31 @@
+Test Strategy for Csv to XML Project
+
+For testing this Project, I will start with writing some unit test for both the files.
+•	In the Extract Words class, we have a function getList (). We can test this function by making sure that item list returned has data in the format that we expect. We can mock the function behavior and assert the returned item list to test it.
+
+For Example,
+
+@Test
+public void testGetList(){
+
+//Mock data for this function
+
+Tester test= new Tester(); // create a test entity
+
+result= test.getList(); //call the function under test and store it in variable
+
+Now, we can write assertion to verify that our function is doing what it is supposed to do
+
+•	We can assert that our output has no comma.
+•	We can assert that output contains words. If we know the number of comma separated value in our csv file, we can simply count the items in list and compare it to the known value.
+•	We can test that function has desired input file. We can do it by adding a few conditional statements in source code and throw an error to user that no file was found.
+•	We can also test that the file is csv in format and not any other file format.
+•	We can also make sure that output file is present where data is being written.
+
+
+As, we add more methods and enhance the functionality of this project we can do integration testing also which will make sure that moving parts of code are interacting with each other correctly and desired result is produced.
+
+
+Finally, as we scale the project and data grows we can also test by loading the data in a database and then run queries and obtain accurate results and make sure that data is as accurate as possible.
+
+
