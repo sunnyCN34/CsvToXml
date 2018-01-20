@@ -1,14 +1,11 @@
 Test Strategy for CSV to XML Project
 
 For testing this Project, I will start with writing some unit test for both the files.
-<<<<<<< HEAD
+
 •	In the Extract Words class, we have a function getList (). 
     We can test this function by making sure that item list returned
     has data in the format that we expect. We can mock the function
     behavior and assert the returned item list to test it.
-=======
-•In the Extract Words class, we have a function getList (). We can test this function by making sure that item list returned has data in the format that we expect. We can mock the function behavior and assert the returned item list to test it.
->>>>>>> a4405bfc52c4d0b040459f92bd3c7d329f12f607
 
 For Example,
 
