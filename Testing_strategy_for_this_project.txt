@@ -33,7 +33,7 @@ parts of code are interacting with each other correctly and desired result
 is produced.
 
 Finally, as we scale the project and data grows we can also test by
-loading the data in a database and then run queries and obtain accurate
-results and make sure that data is as accurate as possible.
+loading the data in a database and then run queries to obtain accurate
+results and to make sure that our data is as accurate as possible.
 
 

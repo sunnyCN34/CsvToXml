@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.io.File;
 import com.thoughtworks.xstream.XStream;
 
-class ConverToXml {
+class ConvertToXml {
 
     public static void main(String args[]) {
 
